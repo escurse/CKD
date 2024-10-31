@@ -1,4 +1,4 @@
-import {
+const {
 	ClassicEditor,
 	AccessibilityHelp,
 	Alignment,
@@ -76,7 +76,7 @@ import {
 	TodoList,
 	Underline,
 	Undo
-} from 'ckeditor5';
+} = CKEDITOR;
 
 import translations from 'ckeditor5/translations/ko.js';
 
