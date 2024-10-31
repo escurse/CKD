@@ -78,8 +78,6 @@ const {
 	Undo
 } = CKEDITOR;
 
-import translations from 'ckeditor5/translations/ko.js';
-
 const editorConfig = {
 	toolbar: {
 		items: [
@@ -389,8 +387,7 @@ const editorConfig = {
 	},
 	table: {
 		contentToolbar: ['tableColumn', 'tableRow', 'mergeTableCells', 'tableProperties', 'tableCellProperties']
-	},
-	translations: [translations]
+	}
 };
 
 ClassicEditor.create(document.querySelector('#editor'), editorConfig);
